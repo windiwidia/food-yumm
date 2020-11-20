@@ -124,3 +124,21 @@ label:hover {
 .carousel-inner .carousel-item-left {
   transform: translateX(0);
 }
+
+.dessert img {
+  width: 250px !important;
+  height: 250px !important;
+}
+
+.drink img {
+  width: 150px !important;
+  height: 300px !important;
+}
+
+/* #r1:checked ~ .carousel-inner .carousel-item {
+  transform: translateX(0);
+} */
+.carousel-inner .carousel-item {
+  transform: translateX(0) !important;
+  transition: 2s ease-in !important;
+}
