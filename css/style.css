@@ -1,3 +1,56 @@
+.text-carousel {
+  /* background: #de2d26; */
+  /* width: 150px;
+  height: 150px;
+  margin: 0 auto; */
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  font-size: 1.5em;
+  margin-bottom: 30px;
+  margin-right: 308px;
+  margin-top: -42px;
+}
+
+.carousel-content {
+  overflow: hidden;
+  display: inline-block;
+  vertical-align: top;
+  height: 32px;
+  margin: 0 auto;
+  text-align: center;
+}
+.inner {
+  animation: scroll 5s ease-in-out infinite;
+}
+.element {
+  font-size: 1.1em;
+}
+
+@keyframes scroll {
+  0%,
+  20% {
+    transform: translateY(0);
+  }
+  25%,
+  45% {
+    transform: translateY(-32px);
+  }
+  50%,
+  70% {
+    transform: translateY(-64px);
+  }
+  75%,
+  95% {
+    transform: translateY(-96px);
+  }
+  100% {
+    transform: translateY(-124px);
+  }
+}
+
 .tabs {
   width: 100%;
   /* box-shadow: 0px 2px 15px 2px; */
