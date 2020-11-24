@@ -14,15 +14,19 @@ label,
   /* display: inline-block; */
   font-weight: bold;
   text-align: center;
-  background: green;
-  color: #aaa;
+  background: #28a745;
+  color: #ffff;
   width: 150px;
   height: auto;
   padding: 10px 0px;
+  border-radius: 3px;
 }
 
 label:hover {
-  color: white;
+  /* background: white;
+  border: 2px solid #28a745;
+  border-color: #28a745;
+  color: #28a745; */
   cursor: pointer;
 }
 
@@ -68,7 +72,9 @@ label:hover {
 }
 
 [type="radio"]:checked + label {
-  color: white;
+  color: #28a745;
+  background: white;
+  border: 2px solid #28a745;
 }
 
 [type="radio"]:checked + label + .content {
@@ -90,6 +96,14 @@ label:hover {
 .carousel-control-next,
 .carousel-control-prev {
   width: 2% !important;
+}
+
+.carousel-control-prev {
+  margin-left: -25px;
+}
+
+.carousel-control-next {
+  margin-right: -25px;
 }
 
 @media (max-width: 768px) {
@@ -138,7 +152,23 @@ label:hover {
 /* #r1:checked ~ .carousel-inner .carousel-item {
   transform: translateX(0);
 } */
-.carousel-inner .carousel-item {
-  transform: translateX(0) !important;
+.inners .items {
+  /* transform: translateX(0) !important; */
   transition: 2s ease-in !important;
+}
+
+.cardBest {
+  border-style: none !important;
+  transition: transform 0.3s;
+}
+
+.cardBest:hover {
+  transform: scale(1.03);
+}
+
+.button-more:focus {
+  color: #28a745 !important;
+  background: white !important;
+  border: 2px solid #28a745 !important;
+  box-shadow: none !important;
 }
