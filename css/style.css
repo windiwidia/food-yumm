@@ -4,6 +4,15 @@ body {
   overflow-x: hidden !important;
 }
 
+.social-media {
+  position: absolute;
+  top: 0;
+  right: -8em;
+  width: 20%;
+  height: 85%;
+  background-color: white;
+}
+
 .layer {
   position: absolute;
   top: -4em;
@@ -36,7 +45,7 @@ body {
 
 .tagline h1 {
   position: relative;
-  font-size: 4.8em !important;
+  font-size: 4.3em !important;
   font-family: "Archivo Black" !important;
   top: 2.1em;
   letter-spacing: 10px;
@@ -46,14 +55,14 @@ body {
   position: relative;
   font-size: 1.3em !important;
   font-family: "Archivo" !important;
-  top: 7em;
+  top: 6.3em;
   letter-spacing: 5px;
   left: 5px;
 }
 
 .button-tagline {
   position: relative;
-  top: 8.4em;
+  top: 7.5em;
   left: 5px;
 }
 
@@ -65,7 +74,7 @@ body {
   display: flex;
   color: #fff;
   font-size: 1.2em;
-  top: 4em;
+  top: 3em;
   letter-spacing: 10px;
 }
 
