@@ -1,5 +1,7 @@
 body {
   font-family: "Archivo", sans-serif;
+  margin: 0;
+  overflow-x: hidden !important;
 }
 
 .layer {
@@ -38,6 +40,21 @@ body {
   font-family: "Archivo Black" !important;
   top: 2.1em;
   letter-spacing: 10px;
+}
+
+.tagline h2 {
+  position: relative;
+  font-size: 1.3em !important;
+  font-family: "Archivo" !important;
+  top: 7em;
+  letter-spacing: 5px;
+  left: 5px;
+}
+
+.button-tagline {
+  position: relative;
+  top: 8.4em;
+  left: 5px;
 }
 
 .text-carousel {
