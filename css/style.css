@@ -1,5 +1,5 @@
 body {
-  font-family: "Source Sans Pro";
+  font-family: "Archivo", sans-serif;
 }
 .text-carousel {
   /* background: #de2d26; */
@@ -56,6 +56,7 @@ body {
 
 .about-text h1 {
   font-size: 2.5em;
+  font-family: "Archivo Black", sans-serif;
 }
 
 .about-text p {
