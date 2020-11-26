@@ -1,7 +1,35 @@
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   font-family: "Archivo", sans-serif;
   margin: 0;
   overflow-x: hidden !important;
+  color: rgba(88, 86, 86, 1) !important;
+}
+
+.navbar-nav,
+.navbar-brand,
+.sr-only {
+  color: rgba(88, 86, 86, 1) !important;
+  font-weight: bold;
+}
+
+.nav-item {
+  font-weight: bold;
+  margin: 0 5px !important;
+}
+
+.navbar-brand:hover {
+  color: #28a745 !important;
+}
+
+.nav-item a:hover,
+.nav-item .active,
+.navbar-nav .active > .nav-link {
+  color: #28a745 !important;
+  border-top: 2px solid #28a745;
 }
 
 .social-media {
