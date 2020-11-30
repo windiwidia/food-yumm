@@ -310,6 +310,13 @@ a {
   box-shadow: none !important;
 }
 
+.items img,
+.cardBest img {
+  max-width: 15em !important;
+  margin-left: auto !important;
+  margin-right: auto !important;
+}
+
 .ourHappyCust {
   background-color: rgba(40, 167, 69, 0.3) !important;
   border-style: none !important;
