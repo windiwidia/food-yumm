@@ -311,5 +311,18 @@ a {
 }
 
 .ourHappyCust {
-  position: relative;
+  background-color: rgba(40, 167, 69, 0.3) !important;
+  border-style: none !important;
+}
+
+.quote img {
+  width: 50px !important;
+  height: 50px !important;
+  border-radius: 50px !important;
+  margin-right: 10px !important;
+}
+
+.carousel-indicators li {
+  background-color: #28a745 !important;
+  /* margin-bottom: 100px !important; */
 }
