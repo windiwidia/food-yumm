@@ -9,6 +9,18 @@ body {
   color: rgba(88, 86, 86, 1) !important;
 }
 
+a {
+  color: #28a745 !important;
+}
+
+.container {
+  justify-content: center !important;
+}
+
+.btn-success {
+  color: #fff !important;
+}
+
 .navbar-nav,
 .navbar-brand,
 .sr-only {
@@ -176,88 +188,35 @@ body {
   right: 15px;
 }
 
-.tabs {
-  width: 100%;
-  /* box-shadow: 0px 2px 15px 2px; */
-  position: relative;
-  /* top: 51%; */
-  /* left: 50%; */
-  /* height: 50%; */
-  /* min-width: 450px; */
-  /* transform: translate(-50%, -50%); */
+/* .nav-pills .nav-link.active,
+.nav-pills .show > .nav-link {
+  color: #ffff !important;
+  background-color: #28a745 !important;
+} */
+
+.menu-nav .menu-nav-link {
+  width: 100px !important;
+  height: 40px !important;
+  color: #ffff !important ;
+  background-color: #28a745 !important;
 }
 
-label,
-#slider {
-  /* display: inline-block; */
-  font-weight: bold;
-  text-align: center;
-  background: #28a745;
-  color: #ffff;
-  width: 150px;
-  height: auto;
-  padding: 10px 0px;
-  border-radius: 3px;
+.menu-nav-pills .menu-nav-link.active {
+  color: #28a745 !important;
+  background: white !important;
+  border: 2px solid #28a745 !important;
 }
 
-label:hover {
-  /* background: white;
-  border: 2px solid #28a745;
-  border-color: #28a745;
-  color: #28a745; */
-  cursor: pointer;
+.menu-nav a:hover {
+  color: #28a745 !important;
+  background-color: #fff !important;
+  border: 2px solid #28a745 !important;
 }
 
-.tabs [type="radio"] {
-  display: none;
-}
-
-.content {
-  width: 100%;
-  position: absolute;
-  top: 50px;
-  right: 0;
-  bottom: 0;
-  left: 0;
-  background: white;
-  padding: 20px;
-  /* box-shadow: inset 0px 5px 5px -5px; */
-  display: none;
-}
-
-#slider {
-  background-color: transparent;
-  position: absolute;
-  border-bottom: 3px solid white;
-  margin: 7px 10px;
-  transition: transform 0.5s;
-  width: 130px;
-}
-
-[type="radio"],
-#r1:checked ~ #slider {
-  transform: translate(-450px, 0px);
-}
-
-[type="radio"],
-#r2:checked ~ #slider {
-  transform: translate(-300px, 0px);
-}
-
-[type="radio"],
-#r3:checked ~ #slider {
-  transform: translate(-150px, 0px);
-}
-
-[type="radio"]:checked + label {
-  color: #28a745;
-  background: white;
-  border: 2px solid #28a745;
-}
-
-[type="radio"]:checked + label + .content {
-  display: inline-block;
-}
+/*  {
+  color: #28a745 !important;
+  border: 2px solid #28a745 !important;
+} */
 
 .content i.fas {
   color: green !important;
@@ -349,4 +308,8 @@ label:hover {
   background: white !important;
   border: 2px solid #28a745 !important;
   box-shadow: none !important;
+}
+
+.ourHappyCust {
+  position: relative;
 }
