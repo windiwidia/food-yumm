@@ -538,61 +538,94 @@
 
     <!-- Footer -->
     <footer class="bg-success">
-      <div class="container mt-5 pb-5 text-white">
-        <div class="row">
+      <div class="container mt-5 pb-3 text-white">
+        <div class="row mb-3">
           <div class="col-md-6">
             <h2 class="text-white font-weight-bold pt-5">Contact</h2>
-            <hr>
+            <!-- <hr> -->
             <div class="row">
-              <div class="col">
-                <span>
-                  <i class="fas fa-map-marker-alt fa-lg mr-3" aria-hidden="true"></i>
-                </span>
+              <div class="col-sm-1">
+                  <i class="fas fa-map-marker-alt fa-lg " aria-hidden="true"></i>
+              </div>
+              <div class="col-sm-11">
                 Jl. Lorem ipsum dolor sit amet. Lorem, ipsum dolor.
               </div>
             </div>
             <div class="row mt-3">
-              <div class="col">
-                <span>
-                  <i class="fas fa-lg fa-phone mr-3"></i>
-                </span> 081 - xxx - xxx - xxx
+              <div class="col-sm-1">
+                  <i class="fas fa-lg fa-phone"></i>
+              </div>
+              <div class="col-sm-11">
+                081 - xxx - xxx - xxx
               </div>
             </div>
             <div class="row mt-3">
-              <div class="col">
-                <span><i class="fas fa-envelope fa-lg mr-3" aria-hidden="true"></i>
-                </span> lorem@gmail.com
+              <div class="col-sm-1">
+                <i class="fas fa-envelope fa-lg" aria-hidden="true"></i>
+              </div>
+              <div class="col-sm-11">
+                lorem@gmail.com
               </div>
             </div>
-            <hr>
-            <!-- <div class="row ">
-              <div class="">
-                <div id="social">
-                  <a class="facebookBtn smGlobalBtn" href="#" ></a>
-                  <a class="twitterBtn smGlobalBtn" href="#" ></a>
-                  <a class="instagramBtn smGlobalBtn" href="#" ></a>
+            <div class="row mt-3">
+              <div class="col-sm-1 icon">
+                <i class="far fa-lg fa-clock"></i>
               </div>
-            </div> -->
+              <div class="col-sm-11 icon-text">
+                <p>Work Hours <br>
+                    Monday - Saturday <br>
+                    08.00 - 16.00</p>
+              </div>
+            </div>
+            <hr class="">
             <div class="row socmed">
               <div class="col-sm-1 socmed">
                 <a href="">
-                  <i class="fab fa-lg fa-instagram text-white"></i>
-                </a>
-              </div>
-              <div class="col-sm-1socmed">
-                <a href="">
-                  <i class="fab fa-lg fa-facebook text-white"></i>
+                  <i class="fab fa-2x fa-instagram text-white"></i>
                 </a>
               </div>
               <div class="col-sm-1 socmed">
                 <a href="">
-                  <i class="fab fa-lg fa-twitter text-white"></i>
+                  <i class="fab fa-2x fa-facebook text-white"></i>
+                </a>
+              </div>
+              <div class="col-sm-1 socmed">
+                <a href="">
+                  <i class="fab fa-2x fa-twitter text-white"></i>
                 </a>
               </div>
             </div>
           </div>
-          <div class="col-md-6">
-            <div id="map"></div>
+          <div class="col-md-6">              
+              <h2 class="mt-5 font-weight-bold">Send Message</h2>
+              <!-- <hr> -->
+              <form>
+                <div class="form-row">
+                  <div class="form-group col-md-6">
+                    <label for="name">Name</label>
+                    <input type="text" class="form-control" id="name">
+                  </div>
+                  <div class="form-group col-md-6">
+                    <label for="email">Email</label>
+                    <input type="email" class="form-control" id="email">
+                  </div>
+                </div>
+                <div class="form-group">
+                  <label for="subject">Subject</label>
+                  <input type="text" class="form-control" id="subject" placeholder="">
+                </div>
+                <div class="form-group">
+                  <label for="message">Message</label>
+                  <textarea class="form-control" id="message" rows="2"></textarea>
+                </div>
+                <button type="submit" class="btn btn-warning text-white">Send</button>
+              </form>
+          </div>
+        </div>
+        <div class="row"> 
+          <div class="col-lg-12 text-center"> 
+            <hr>
+              <span class="copyright">&copy; 2020 Windi Widiastuti All rights reserved</span>
           </div>
         </div>
     </footer>
