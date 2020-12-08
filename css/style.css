@@ -16,15 +16,6 @@ a {
   color: #28a745 !important;
 }
 
-.container {
-  justify-content: center !important;
-}
-
-/* .jumbo {
-  padding-right: 0 !important;
-  padding-left: 0 !important;
-} */
-
 .btn-success {
   color: #fff !important;
 }
@@ -74,37 +65,37 @@ a {
 }
 
 .tagline h1 {
-  position: relative;
+  /* position: relative; */
   font-size: 4.3em !important;
   font-family: "Archivo Black" !important;
-  top: 2.1em;
+  /* top: 2.1em; */
   letter-spacing: 10px;
 }
 
 .tagline h2 {
-  position: relative;
+  /* position: relative; */
   font-size: 1.3em !important;
   font-family: "Archivo" !important;
-  top: 6.3em;
+  /* top: 6.3em; */
   letter-spacing: 5px;
-  left: 5px;
+  /* left: 5px; */
 }
 
 .button-tagline {
-  position: relative;
-  top: 7.5em;
+  /* position: relative; */
+  /* top: 7.5em; */
   left: 5px;
 }
 
 .text-carousel {
-  width: 3000px;
-  height: 245px;
+  width: 500px;
+  height: 250px;
   margin: 0 auto;
   position: absolute;
   display: flex;
   color: #fff;
   font-size: 1.2em;
-  top: 3em;
+  /* top: 3em; */
   letter-spacing: 10px;
 }
 
@@ -149,6 +140,8 @@ a {
   position: relative !important;
 }
 
+/* / */
+
 .about-text h1 {
   font-size: 2.5em;
   font-family: "Archivo Black", sans-serif;
@@ -158,16 +151,18 @@ a {
   font-size: 1.5em;
 }
 
-.background {
+/* .background {
   background-image: url(../img/cafegreen.jpg);
-  width: 33rem;
-  height: 22rem;
+  width: 30rem;
+  height: 19rem;
   background-size: cover;
-}
+} */
 
-.background:after {
+.background img:after {
   content: "";
   position: absolute;
+  width: 33rem;
+  height: 22rem;
   top: 0;
   left: 15px;
   right: 26px;
@@ -346,3 +341,25 @@ input:focus,
 textarea:focus {
   border: 2px solid #1b6e2e !important;
 }
+
+/* col-md */
+@media (min-width: 768px) {
+  /* .gradient-text {
+    font-size: 2.5em !important;
+  } */
+
+  /* .tagline h1 {
+    font-size: 3em !important;
+  }
+
+  .tagline h2 {
+    font-size: 1em !important;
+  } */
+}
+
+/* col-sm */
+/* @media (min-width: 576px) {
+  .gradient-text {
+    font-size: 2em !important;
+  }
+} */
