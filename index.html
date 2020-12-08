@@ -487,10 +487,10 @@
         <h1 class="text-center text-success font-weight-bold pt-5">Our Happy Customer</h1>
         <div class="row mt-5 mb-5">
           <div class="col-md-8 mx-auto">
-            <div id="indicators-quote" class="carousel slide" data-ride="carousel">
+            <div id="indicators-quote" class="carousel" data-ride="carousel">
               <div class="carousel-inner ">
                 <div class="carousel-item  active">
-                  <div class="card ourHappyCust">
+                  <div class="card ourHappyCust mx-auto" style="width: 38em;">
                     <div class="card-body">
                       <blockquote class="blockquote mb-0">
                         <p>&ldquo;aLorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante. Lorem ipsum dolor sit amet consectetur adipisicing elit. &rdquo;</p>
@@ -500,7 +500,7 @@
                   </div>
                 </div>
                 <div class="carousel-item">
-                  <div class="card ourHappyCust">
+                  <div class="card ourHappyCust mx-auto" style="width: 38em;">
                     <div class="card-body">
                       <blockquote class="blockquote mb-0">
                         <p>&ldquo;bLorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante. Lorem ipsum dolor sit amet consectetur adipisicing elit. &rdquo;</p>
@@ -510,7 +510,7 @@
                   </div>
                 </div>
                 <div class="carousel-item">
-                  <div class="card ourHappyCust">
+                  <div class="card ourHappyCust mx-auto" style="width: 38em;">
                     <div class="card-body">
                       <blockquote class="blockquote mb-0">
                         <p>&ldquo;cLorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante. Lorem, ipsum dolor sit amet consectetur adipisicing elit. &rdquo;</p>
@@ -520,17 +520,21 @@
                   </div>
                 </div>
               </div>
-              <a class="carousel-control-prev" href="#indicators-quote" role="button" data-slide="prev">
-                <i class="fas fa-2x fa-chevron-left text-dark"></i>  
-                <span class="sr-only">Previous</span>
-              </a>
-              <a class="carousel-control-next" href="#indicators-quote" role="button" data-slide="next">
-                <i class="fas fa-2x fa-chevron-right text-dark"></i>  
-                <span class="sr-only">Next</span>
-              </a>
+              <div class="row">
+                <div class="col">
+                  <ol class="carousel-indicators">
+                    <li data-target="#indicators-quote" data-slide-to="0" class="active"></li>
+                    <li data-target="#indicators-quote" data-slide-to="1"></li>
+                    <li data-target="#indicators-quote" data-slide-to="2"></li>
+                  </ol>
+                </div>
+              </div>
+              
             </div>
+  
           </div>
         </div>
+        
       </div>
     </section>
     <!-- End Review -->

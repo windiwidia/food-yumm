@@ -314,9 +314,25 @@ a {
   margin-right: 10px !important;
 }
 
+.carousel-indicators {
+  position: relative !important;
+  bottom: 0px !important;
+  top: 10px;
+}
+
 .carousel-indicators li {
   background-color: #28a745 !important;
+  width: 10px !important;
+  height: 10px !important;
+  border-radius: 5px !important;
+  border: none !important;
+  overflow: hidden !important;
+  position: relative !important;
+  display: inline-block !important;
   /* margin-bottom: 100px !important; */
+}
+
+.carousel-indicators li {
 }
 
 .socmed a i:hover {
