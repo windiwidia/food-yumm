@@ -16,6 +16,12 @@ a {
   color: #28a745 !important;
 }
 
+/* .navbar-brand h4 {
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-fill-color: #28a745;
+  -webkit-text-stroke-color: black;
+} */
+
 .btn-success {
   color: #fff !important;
 }
